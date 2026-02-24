@@ -5,8 +5,9 @@ import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
+
 export default defineConfig({
-  base: '/quiz-victorina/dist/',
+  base: '/quiz1/',
   plugins: [
     vue(),
     vueJsx(),
