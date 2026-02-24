@@ -2,7 +2,7 @@ name: Deploy Vite Vue to Pages
 
 on:
   push:
-    branches: ["master"]  # У тебя ветка master, не main!
+    branches: ["master"]
   workflow_dispatch:
 
 permissions:
